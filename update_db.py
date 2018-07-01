@@ -31,7 +31,7 @@ models.append(MinerModel(model='R4', chips='63,63', temp_keys='temp2_', descript
 models.append(MinerModel(model='V9', chips='45,45,45', temp_keys='temp2_', description='Bitcoin Miner 4 TH/s'))
 # add Settings
 settings = []
-settings.append(Settings(name="temperature_alert", value="80", description=""))
+settings.append(Settings(name="temperature_alert", value="90", description=""))
 settings.append(Settings(name="email_alert", value="True", description="Whether to send an email on alert"))
 
 
